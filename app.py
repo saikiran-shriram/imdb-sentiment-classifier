@@ -4,7 +4,7 @@ import joblib
 model = joblib.load('models/sentiment_model.pkl')
 tfidf = joblib.load('models/tfidf_vectorizer.pkl')
 
-st.title("Movie Review Sentiment Classifier")
+st.title("🎬 Movie Review Sentiment Classifier")
 st.write("Enter a movie review below and the model will predict if it's positive or negative.")
 
 review = st.text_area("Your review:", height=150)
