@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load the saved model and vectorizer
-model = joblib.load('sentiment_model.pkl')
-tfidf = joblib.load('tfidf_vectorizer.pkl')
+model = joblib.load('models/sentiment_model.pkl')
+tfidf = joblib.load('models/tfidf_vectorizer.pkl')
 
 st.title("Movie Review Sentiment Classifier")
 st.write("Enter a movie review below and the model will predict if it's positive or negative.")
