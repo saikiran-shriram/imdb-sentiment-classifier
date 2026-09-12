@@ -26,14 +26,18 @@ This project uses the IMDB Dataset of 50,000 movie reviews to train a sentiment 
 - Joblib (model persistence)
 
 ## 📁 Project Structure
+```text
 imdb-sentiment-classifier/
-├── app.py # Streamlit web app
-├── sentiment_model.pkl # Trained Logistic Regression model
-├── tfidf_vectorizer.pkl # Fitted TF-IDF vectorizer
+│
+├── app.py
 ├── requirements.txt
-├── notebooks/
-│ └── IMDB_EDA.ipynb # EDA + preprocessing + model training
-└── README.md
+├── README.md
+├── models/
+│   ├── sentiment_model.pkl
+│   └── tfidf_vectorizer.pkl
+└── notebooks/
+    └── IMDB_EDA.ipynb
+```
 
 ## ⚙️ How to Run Locally
 ```bash
