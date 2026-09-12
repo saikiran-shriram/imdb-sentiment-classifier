@@ -3,7 +3,7 @@
 A machine learning model that classifies movie reviews as positive or negative, built end-to-end from raw data to a deployed, interactive web app.
 
 ## 🎬 Live Demo
-[Add your Streamlit Cloud link here once deployed]
+[https://imdb-sentiment-classifier-3b5ucdtvidtligwnwkxqd5.streamlit.app/]
 
 ## 📊 Project Overview
 This project uses the IMDB Dataset of 50,000 movie reviews to train a sentiment classifier using classical NLP techniques — TF-IDF vectorization combined with Logistic Regression.
