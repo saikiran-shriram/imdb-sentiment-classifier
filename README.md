@@ -26,3 +26,30 @@ This project uses the IMDB Dataset of 50,000 movie reviews to train a sentiment 
 - Joblib (model persistence)
 
 ## 📁 Project Structure
+imdb-sentiment-classifier/
+├── app.py # Streamlit web app
+├── sentiment_model.pkl # Trained Logistic Regression model
+├── tfidf_vectorizer.pkl # Fitted TF-IDF vectorizer
+├── requirements.txt
+├── notebooks/
+│ └── IMDB_EDA.ipynb # EDA + preprocessing + model training
+└── README.md
+
+## ⚙️ How to Run Locally
+```bash
+git clone https://github.com/saikiran-shriram/imdb-sentiment-classifier.git
+cd imdb-sentiment-classifier
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🧠 What I Learned
+- Handling real-world text data quirks (HTML artifacts in raw reviews)
+- Building an ML pipeline from EDA through deployment
+- The difference between having a trained model and having a usable, shareable project
+- Debugging deployment issues (dependency management, module errors on Streamlit Cloud)
+
+## 🚀 Future Improvements
+- Compare against other models (Naive Bayes, Random Forest)
+- Add word frequency visualization
+- Try word embeddings instead of TF-IDF
