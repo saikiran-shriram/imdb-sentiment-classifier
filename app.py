@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import joblib
 
@@ -122,4 +122,3 @@ st.markdown(
     'Developed & Designed by <b>Sai Shriram</b></div>',
     unsafe_allow_html=True
 )
-```
