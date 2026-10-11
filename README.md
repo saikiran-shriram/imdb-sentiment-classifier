@@ -39,6 +39,10 @@ imdb-sentiment-classifier/
     └── IMDB_EDA.ipynb
 ```
 
+## 🖥️ Application Preview
+images/Screenshot 2026-10-11 185906.png
+images/Screenshot 2026-10-11 185940.png
+
 ## ⚙️ How to Run Locally
 ```bash
 git clone https://github.com/saikiran-shriram/imdb-sentiment-classifier.git
