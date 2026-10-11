@@ -39,9 +39,14 @@ imdb-sentiment-classifier/
     └── IMDB_EDA.ipynb
 ```
 
+
 ## 🖥️ Application Preview
-images/Screenshot 2026-10-11 185906.png
-images/Screenshot 2026-10-11 185940.png
+
+### Main Interface
+![IMDb Sentiment Classifier - Main Interface](images/Screenshot%202026-10-11%20185940.png)
+
+### Sentiment Prediction
+![IMDb Sentiment Classifier - Prediction Result](images/Screenshot%202026-10-11%20190108.png)
 
 ## ⚙️ How to Run Locally
 ```bash
